@@ -1,0 +1,6 @@
+framework module Pods_NFAPayUtil_Tests {
+  umbrella header "Pods-NFAPayUtil_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

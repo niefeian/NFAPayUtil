@@ -59,14 +59,14 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		66A462EE7239B42BB29A9D2D /* Pods-NFAPayUtil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFAPayUtil_Example.release.xcconfig"; path = "Target Support Files/Pods-NFAPayUtil_Example/Pods-NFAPayUtil_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7237923EBBE713E720EFA31E /* NFAPayUtil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NFAPayUtil.podspec; path = ../NFAPayUtil.podspec; sourceTree = "<group>"; };
+		7237923EBBE713E720EFA31E /* NFAPayUtil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NFAPayUtil.podspec; path = ../NFAPayUtil.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		840FE8052E631DC41024D33B /* Pods_NFAPayUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFAPayUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8DE59125886C9BC65A11F93B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8DE59125886C9BC65A11F93B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		95DF840837F91EEE168D5054 /* Pods_NFAPayUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFAPayUtil_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12692325C76097E856EC5C8 /* Pods-NFAPayUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFAPayUtil_Tests.release.xcconfig"; path = "Target Support Files/Pods-NFAPayUtil_Tests/Pods-NFAPayUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CEE7297498BAC683D543654E /* Pods-NFAPayUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFAPayUtil_Example.debug.xcconfig"; path = "Target Support Files/Pods-NFAPayUtil_Example/Pods-NFAPayUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EC53172B4E65BD26D3651800 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EC53172B4E65BD26D3651800 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				514266ABCD3D5EE13B043A99 /* Pods-NFAPayUtil_Tests.debug.xcconfig */,
 				A12692325C76097E856EC5C8 /* Pods-NFAPayUtil_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B73E6A661F5D1810292CF3FF35300EE /* Pods-NFAPayUtil_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F216F23161E637AB501B2D472C147 /* Pods-NFAPayUtil_Example-dummy.m */; };
+		221AB0CFB29A729C66C57A614249FC2C /* Pods-NFAPayUtil_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D95140CECCF1C72856777641D916BC94 /* Pods-NFAPayUtil_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AEBD0F6ED2C35D25511D691321CABD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5786915B627F6F40D93098D04153E83A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		645A6337C2A044C60399543507880D50 /* NFAPayUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6235D58D6CEBA8FEA02633D0F11496F /* NFAPayUtil-dummy.m */; };
+		9AAFE9B5BAD62AFFCA08B011C208F284 /* Pods-NFAPayUtil_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D9F7C263F9CE9AE95398403D5F2125 /* Pods-NFAPayUtil_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A64739492372AF790053B23A /* NSNumber+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A647393C2372AF790053B23A /* NSNumber+YYAdd.m */; };
+		A647394A2372AF790053B23A /* STRIAPManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A647393D2372AF790053B23A /* STRIAPManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A647394B2372AF790053B23A /* NSDate+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = A647393E2372AF790053B23A /* NSDate+YYAdd.h */; };
+		A647394C2372AF790053B23A /* YYKitMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = A647393F2372AF790053B23A /* YYKitMacro.h */; };
+		A647394D2372AF790053B23A /* UIDevice+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A64739402372AF790053B23A /* UIDevice+YYAdd.m */; };
+		A647394E2372AF790053B23A /* NSString+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = A64739412372AF790053B23A /* NSString+YYAdd.h */; };
+		A647394F2372AF790053B23A /* NSData+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A64739422372AF790053B23A /* NSData+YYAdd.m */; };
+		A64739502372AF790053B23A /* NSNumber+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = A64739432372AF790053B23A /* NSNumber+YYAdd.h */; };
+		A64739512372AF790053B23A /* STRIAPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A64739442372AF790053B23A /* STRIAPManager.m */; };
+		A64739522372AF790053B23A /* NSDate+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A64739452372AF790053B23A /* NSDate+YYAdd.m */; };
+		A64739532372AF790053B23A /* NSString+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A64739462372AF790053B23A /* NSString+YYAdd.m */; };
+		A64739542372AF790053B23A /* UIDevice+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = A64739472372AF790053B23A /* UIDevice+YYAdd.h */; };
+		A64739552372AF790053B23A /* NSData+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = A64739482372AF790053B23A /* NSData+YYAdd.h */; };
+		B624404039564D439A616D059C35C87F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B7A802B11A39D9515ECA4D73E37E7E6B /* NFAPayUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A4F4DA2A2C6417B8B618467F9796303 /* NFAPayUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C64FCD960F81D1A050C1834057469D72 /* Pods-NFAPayUtil_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB93819C90206404014FB8605766280D /* Pods-NFAPayUtil_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A925A11661CC48FDC0887080EA6BC391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2517D038CC1E8182CD3DC28A7AA6331E;
+			remoteInfo = NFAPayUtil;
+		};
+		FF0640C992C1C7535EE7E71C854EA0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6008FC9530A29A888D43B57E38AD49FF;
+			remoteInfo = "Pods-NFAPayUtil_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08CEC836B73910620F5CDEEDC77E1051 /* Pods-NFAPayUtil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NFAPayUtil_Example.release.xcconfig"; sourceTree = "<group>"; };
+		12ACD7190BF984827A5EA63E8983B216 /* Pods-NFAPayUtil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NFAPayUtil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		138F216F23161E637AB501B2D472C147 /* Pods-NFAPayUtil_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NFAPayUtil_Example-dummy.m"; sourceTree = "<group>"; };
+		16564DA921A500B8F69A308CCE491963 /* Pods-NFAPayUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NFAPayUtil_Tests.modulemap"; sourceTree = "<group>"; };
+		182D056F5E79D88519EFFC896B01B1AB /* Pods-NFAPayUtil_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NFAPayUtil_Example-frameworks.sh"; sourceTree = "<group>"; };
+		23A3A39AC3BA8A52518802F36C7BF168 /* Pods_NFAPayUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFAPayUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D9F7C263F9CE9AE95398403D5F2125 /* Pods-NFAPayUtil_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NFAPayUtil_Example-umbrella.h"; sourceTree = "<group>"; };
+		25332C333D74BD803D86F522DE0EFDCE /* Pods-NFAPayUtil_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NFAPayUtil_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2670FB28D89E95E902C1D915463B23F3 /* NFAPayUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFAPayUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A4F4DA2A2C6417B8B618467F9796303 /* NFAPayUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NFAPayUtil-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		39E817573D4519237C31C3D655F1F9C1 /* NFAPayUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NFAPayUtil.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4501A699333058043C1C1B4F9CE82EE8 /* NFAPayUtil-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NFAPayUtil-Info.plist"; sourceTree = "<group>"; };
+		4F6406E828B6507E7B3F3D168983511A /* Pods-NFAPayUtil_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NFAPayUtil_Example-Info.plist"; sourceTree = "<group>"; };
+		562E5096BE345131B449839656A72E74 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		564F2F74B2985C10087F0B57A7F6880D /* Pods-NFAPayUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NFAPayUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		63C7F15E1683EB27C45A1AF481FA4222 /* NFAPayUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NFAPayUtil.modulemap; sourceTree = "<group>"; };
+		7401CCDCCD5AE28D20DAA178D450C3AE /* Pods-NFAPayUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NFAPayUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7681418156D91BFDD615966137A2F7B8 /* Pods_NFAPayUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFAPayUtil_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F0A70E33AB951C89A8283B655120683 /* NFAPayUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NFAPayUtil-prefix.pch"; sourceTree = "<group>"; };
+		A3932744A0A7EFECFA2EC714B8931254 /* NFAPayUtil.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NFAPayUtil.xcconfig; sourceTree = "<group>"; };
+		A647393C2372AF790053B23A /* NSNumber+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+YYAdd.m"; sourceTree = "<group>"; };
+		A647393D2372AF790053B23A /* STRIAPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRIAPManager.h; sourceTree = "<group>"; };
+		A647393E2372AF790053B23A /* NSDate+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YYAdd.h"; sourceTree = "<group>"; };
+		A647393F2372AF790053B23A /* YYKitMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKitMacro.h; sourceTree = "<group>"; };
+		A64739402372AF790053B23A /* UIDevice+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+YYAdd.m"; sourceTree = "<group>"; };
+		A64739412372AF790053B23A /* NSString+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YYAdd.h"; sourceTree = "<group>"; };
+		A64739422372AF790053B23A /* NSData+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+YYAdd.m"; sourceTree = "<group>"; };
+		A64739432372AF790053B23A /* NSNumber+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+YYAdd.h"; sourceTree = "<group>"; };
+		A64739442372AF790053B23A /* STRIAPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRIAPManager.m; sourceTree = "<group>"; };
+		A64739452372AF790053B23A /* NSDate+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YYAdd.m"; sourceTree = "<group>"; };
+		A64739462372AF790053B23A /* NSString+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YYAdd.m"; sourceTree = "<group>"; };
+		A64739472372AF790053B23A /* UIDevice+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+YYAdd.h"; sourceTree = "<group>"; };
+		A64739482372AF790053B23A /* NSData+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+YYAdd.h"; sourceTree = "<group>"; };
+		AB93819C90206404014FB8605766280D /* Pods-NFAPayUtil_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NFAPayUtil_Tests-dummy.m"; sourceTree = "<group>"; };
+		BC1CC3A8BB47962957FC1A660C29FEDB /* Pods-NFAPayUtil_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NFAPayUtil_Example.modulemap"; sourceTree = "<group>"; };
+		D6235D58D6CEBA8FEA02633D0F11496F /* NFAPayUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NFAPayUtil-dummy.m"; sourceTree = "<group>"; };
+		D95140CECCF1C72856777641D916BC94 /* Pods-NFAPayUtil_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NFAPayUtil_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DC61CC6B37591110E38E977BBFF6FF74 /* Pods-NFAPayUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NFAPayUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E46E877D789373D60F443A0DE49A2BE1 /* Pods-NFAPayUtil_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NFAPayUtil_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F2CAF2CAFB3ED546C88111284857F876 /* Pods-NFAPayUtil_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NFAPayUtil_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F3B9F52A64B63B7BA995BFAF35313253 /* Pods-NFAPayUtil_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NFAPayUtil_Tests-Info.plist"; sourceTree = "<group>"; };
+		F63CCC269E42FAB6594E6326B090FCEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F5105351CC2A980AEA076CCCB9E6B30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5786915B627F6F40D93098D04153E83A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EC6FB7DCA01E6079F7494B3588F7FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B624404039564D439A616D059C35C87F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2FC41F236A5A0AC63A783524A09690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AEBD0F6ED2C35D25511D691321CABD6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		212D04E8F24E542C3E86344CDFDE8DD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2670FB28D89E95E902C1D915463B23F3 /* NFAPayUtil.framework */,
+				7681418156D91BFDD615966137A2F7B8 /* Pods_NFAPayUtil_Example.framework */,
+				23A3A39AC3BA8A52518802F36C7BF168 /* Pods_NFAPayUtil_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5030ADB4BD2C1272FD685349BCBDE4F0 /* Pods-NFAPayUtil_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				16564DA921A500B8F69A308CCE491963 /* Pods-NFAPayUtil_Tests.modulemap */,
+				12ACD7190BF984827A5EA63E8983B216 /* Pods-NFAPayUtil_Tests-acknowledgements.markdown */,
+				E46E877D789373D60F443A0DE49A2BE1 /* Pods-NFAPayUtil_Tests-acknowledgements.plist */,
+				AB93819C90206404014FB8605766280D /* Pods-NFAPayUtil_Tests-dummy.m */,
+				F3B9F52A64B63B7BA995BFAF35313253 /* Pods-NFAPayUtil_Tests-Info.plist */,
+				D95140CECCF1C72856777641D916BC94 /* Pods-NFAPayUtil_Tests-umbrella.h */,
+				564F2F74B2985C10087F0B57A7F6880D /* Pods-NFAPayUtil_Tests.debug.xcconfig */,
+				DC61CC6B37591110E38E977BBFF6FF74 /* Pods-NFAPayUtil_Tests.release.xcconfig */,
+			);
+			name = "Pods-NFAPayUtil_Tests";
+			path = "Target Support Files/Pods-NFAPayUtil_Tests";
+			sourceTree = "<group>";
+		};
+		54E25D9945D1495265BFCC8597E53079 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63C7F15E1683EB27C45A1AF481FA4222 /* NFAPayUtil.modulemap */,
+				A3932744A0A7EFECFA2EC714B8931254 /* NFAPayUtil.xcconfig */,
+				D6235D58D6CEBA8FEA02633D0F11496F /* NFAPayUtil-dummy.m */,
+				4501A699333058043C1C1B4F9CE82EE8 /* NFAPayUtil-Info.plist */,
+				9F0A70E33AB951C89A8283B655120683 /* NFAPayUtil-prefix.pch */,
+				2A4F4DA2A2C6417B8B618467F9796303 /* NFAPayUtil-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NFAPayUtil";
+			sourceTree = "<group>";
+		};
+		54FE4671EDA7FF26F33C5A296CA98E44 /* Pods-NFAPayUtil_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BC1CC3A8BB47962957FC1A660C29FEDB /* Pods-NFAPayUtil_Example.modulemap */,
+				F2CAF2CAFB3ED546C88111284857F876 /* Pods-NFAPayUtil_Example-acknowledgements.markdown */,
+				25332C333D74BD803D86F522DE0EFDCE /* Pods-NFAPayUtil_Example-acknowledgements.plist */,
+				138F216F23161E637AB501B2D472C147 /* Pods-NFAPayUtil_Example-dummy.m */,
+				182D056F5E79D88519EFFC896B01B1AB /* Pods-NFAPayUtil_Example-frameworks.sh */,
+				4F6406E828B6507E7B3F3D168983511A /* Pods-NFAPayUtil_Example-Info.plist */,
+				24D9F7C263F9CE9AE95398403D5F2125 /* Pods-NFAPayUtil_Example-umbrella.h */,
+				7401CCDCCD5AE28D20DAA178D450C3AE /* Pods-NFAPayUtil_Example.debug.xcconfig */,
+				08CEC836B73910620F5CDEEDC77E1051 /* Pods-NFAPayUtil_Example.release.xcconfig */,
+			);
+			name = "Pods-NFAPayUtil_Example";
+			path = "Target Support Files/Pods-NFAPayUtil_Example";
+			sourceTree = "<group>";
+		};
+		A647393B2372AF790053B23A /* STRIAPManager */ = {
+			isa = PBXGroup;
+			children = (
+				A647393C2372AF790053B23A /* NSNumber+YYAdd.m */,
+				A647393D2372AF790053B23A /* STRIAPManager.h */,
+				A647393E2372AF790053B23A /* NSDate+YYAdd.h */,
+				A647393F2372AF790053B23A /* YYKitMacro.h */,
+				A64739402372AF790053B23A /* UIDevice+YYAdd.m */,
+				A64739412372AF790053B23A /* NSString+YYAdd.h */,
+				A64739422372AF790053B23A /* NSData+YYAdd.m */,
+				A64739432372AF790053B23A /* NSNumber+YYAdd.h */,
+				A64739442372AF790053B23A /* STRIAPManager.m */,
+				A64739452372AF790053B23A /* NSDate+YYAdd.m */,
+				A64739462372AF790053B23A /* NSString+YYAdd.m */,
+				A64739472372AF790053B23A /* UIDevice+YYAdd.h */,
+				A64739482372AF790053B23A /* NSData+YYAdd.h */,
+			);
+			name = STRIAPManager;
+			path = NFAPayUtil/Classes/STRIAPManager;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DE62DB127C8940DE774819B38CA3547C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				212D04E8F24E542C3E86344CDFDE8DD4 /* Products */,
+				EC56AB8FAF636E6B01162F3DDD5D74C0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D826A928EBEAEF8AEDB70D854E10AE68 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F63CCC269E42FAB6594E6326B090FCEA /* LICENSE */,
+				39E817573D4519237C31C3D655F1F9C1 /* NFAPayUtil.podspec */,
+				562E5096BE345131B449839656A72E74 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		DE62DB127C8940DE774819B38CA3547C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB2AE6BE9C9B8C5383EC966FC7C33CA0 /* NFAPayUtil */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EC56AB8FAF636E6B01162F3DDD5D74C0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54FE4671EDA7FF26F33C5A296CA98E44 /* Pods-NFAPayUtil_Example */,
+				5030ADB4BD2C1272FD685349BCBDE4F0 /* Pods-NFAPayUtil_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FB2AE6BE9C9B8C5383EC966FC7C33CA0 /* NFAPayUtil */ = {
+			isa = PBXGroup;
+			children = (
+				A647393B2372AF790053B23A /* STRIAPManager */,
+				D826A928EBEAEF8AEDB70D854E10AE68 /* Pod */,
+				54E25D9945D1495265BFCC8597E53079 /* Support Files */,
+			);
+			name = NFAPayUtil;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B7F71A4039679AA65D9B6B5CAE6C7A7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221AB0CFB29A729C66C57A614249FC2C /* Pods-NFAPayUtil_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC32C1468ED907AF22C830044B1AE875 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAFE9B5BAD62AFFCA08B011C208F284 /* Pods-NFAPayUtil_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4CF5F0D7B7DD5BE5ED7EC8B8A45971D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64739502372AF790053B23A /* NSNumber+YYAdd.h in Headers */,
+				A647394A2372AF790053B23A /* STRIAPManager.h in Headers */,
+				B7A802B11A39D9515ECA4D73E37E7E6B /* NFAPayUtil-umbrella.h in Headers */,
+				A64739542372AF790053B23A /* UIDevice+YYAdd.h in Headers */,
+				A647394C2372AF790053B23A /* YYKitMacro.h in Headers */,
+				A64739552372AF790053B23A /* NSData+YYAdd.h in Headers */,
+				A647394B2372AF790053B23A /* NSDate+YYAdd.h in Headers */,
+				A647394E2372AF790053B23A /* NSString+YYAdd.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2517D038CC1E8182CD3DC28A7AA6331E /* NFAPayUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74AC45A32C62B4E97EDBCC5E0E465866 /* Build configuration list for PBXNativeTarget "NFAPayUtil" */;
+			buildPhases = (
+				E4CF5F0D7B7DD5BE5ED7EC8B8A45971D /* Headers */,
+				6EA4A6D8ACB343A11F14B3E464539A75 /* Sources */,
+				8F5105351CC2A980AEA076CCCB9E6B30 /* Frameworks */,
+				FB8163A615CB457F5BF6BC9C3A783886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFAPayUtil;
+			productName = NFAPayUtil;
+			productReference = 2670FB28D89E95E902C1D915463B23F3 /* NFAPayUtil.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6008FC9530A29A888D43B57E38AD49FF /* Pods-NFAPayUtil_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23E755FBC40EFBB3D0F535ABF64743BA /* Build configuration list for PBXNativeTarget "Pods-NFAPayUtil_Example" */;
+			buildPhases = (
+				BC32C1468ED907AF22C830044B1AE875 /* Headers */,
+				64698E6DA751E468080FD619144DB3FC /* Sources */,
+				A3EC6FB7DCA01E6079F7494B3588F7FA /* Frameworks */,
+				3637A44A908BDA1124BAA71B5D69FD6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD3936A518A750BAA7C9419560688C6B /* PBXTargetDependency */,
+			);
+			name = "Pods-NFAPayUtil_Example";
+			productName = "Pods-NFAPayUtil_Example";
+			productReference = 7681418156D91BFDD615966137A2F7B8 /* Pods_NFAPayUtil_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E66A33CF72D9518C49D6B83030BBA438 /* Pods-NFAPayUtil_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05FD03C0503596A79F280B42B3CE4E5C /* Build configuration list for PBXNativeTarget "Pods-NFAPayUtil_Tests" */;
+			buildPhases = (
+				B7F71A4039679AA65D9B6B5CAE6C7A7F /* Headers */,
+				B84585D89D2662D0B7C3DFA5568126BB /* Sources */,
+				BE2FC41F236A5A0AC63A783524A09690 /* Frameworks */,
+				1DC805EFD90BC1E61F82A49E5BE1F8A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				792D0351BFEFC9399B0EBA7BD191263B /* PBXTargetDependency */,
+			);
+			name = "Pods-NFAPayUtil_Tests";
+			productName = "Pods-NFAPayUtil_Tests";
+			productReference = 23A3A39AC3BA8A52518802F36C7BF168 /* Pods_NFAPayUtil_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 212D04E8F24E542C3E86344CDFDE8DD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2517D038CC1E8182CD3DC28A7AA6331E /* NFAPayUtil */,
+				6008FC9530A29A888D43B57E38AD49FF /* Pods-NFAPayUtil_Example */,
+				E66A33CF72D9518C49D6B83030BBA438 /* Pods-NFAPayUtil_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DC805EFD90BC1E61F82A49E5BE1F8A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3637A44A908BDA1124BAA71B5D69FD6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8163A615CB457F5BF6BC9C3A783886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64698E6DA751E468080FD619144DB3FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B73E6A661F5D1810292CF3FF35300EE /* Pods-NFAPayUtil_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA4A6D8ACB343A11F14B3E464539A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64739522372AF790053B23A /* NSDate+YYAdd.m in Sources */,
+				645A6337C2A044C60399543507880D50 /* NFAPayUtil-dummy.m in Sources */,
+				A64739492372AF790053B23A /* NSNumber+YYAdd.m in Sources */,
+				A647394F2372AF790053B23A /* NSData+YYAdd.m in Sources */,
+				A647394D2372AF790053B23A /* UIDevice+YYAdd.m in Sources */,
+				A64739512372AF790053B23A /* STRIAPManager.m in Sources */,
+				A64739532372AF790053B23A /* NSString+YYAdd.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84585D89D2662D0B7C3DFA5568126BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64FCD960F81D1A050C1834057469D72 /* Pods-NFAPayUtil_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		792D0351BFEFC9399B0EBA7BD191263B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NFAPayUtil_Example";
+			target = 6008FC9530A29A888D43B57E38AD49FF /* Pods-NFAPayUtil_Example */;
+			targetProxy = FF0640C992C1C7535EE7E71C854EA0D5 /* PBXContainerItemProxy */;
+		};
+		BD3936A518A750BAA7C9419560688C6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NFAPayUtil;
+			target = 2517D038CC1E8182CD3DC28A7AA6331E /* NFAPayUtil */;
+			targetProxy = A925A11661CC48FDC0887080EA6BC391 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BF0CAEB909F5CB6BC490D99BDB11492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3932744A0A7EFECFA2EC714B8931254 /* NFAPayUtil.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NFAPayUtil/NFAPayUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NFAPayUtil/NFAPayUtil-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NFAPayUtil/NFAPayUtil.modulemap";
+				PRODUCT_MODULE_NAME = NFAPayUtil;
+				PRODUCT_NAME = NFAPayUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43CBFFB5087860C1BB882D5FB3EA2E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC61CC6B37591110E38E977BBFF6FF74 /* Pods-NFAPayUtil_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NFAPayUtil_Tests/Pods-NFAPayUtil_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NFAPayUtil_Tests/Pods-NFAPayUtil_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4F2CC3FCA2730BEADDE94E5479F3FA08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08CEC836B73910620F5CDEEDC77E1051 /* Pods-NFAPayUtil_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NFAPayUtil_Example/Pods-NFAPayUtil_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NFAPayUtil_Example/Pods-NFAPayUtil_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5EF029708CF7CD9067DCF31254368B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3932744A0A7EFECFA2EC714B8931254 /* NFAPayUtil.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NFAPayUtil/NFAPayUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NFAPayUtil/NFAPayUtil-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NFAPayUtil/NFAPayUtil.modulemap";
+				PRODUCT_MODULE_NAME = NFAPayUtil;
+				PRODUCT_NAME = NFAPayUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		610A844CD2CC90A24A4BBB6B5424C729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 564F2F74B2985C10087F0B57A7F6880D /* Pods-NFAPayUtil_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NFAPayUtil_Tests/Pods-NFAPayUtil_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NFAPayUtil_Tests/Pods-NFAPayUtil_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DABF68F9789B8CFA0E91CA0CD97B4E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7401CCDCCD5AE28D20DAA178D450C3AE /* Pods-NFAPayUtil_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NFAPayUtil_Example/Pods-NFAPayUtil_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NFAPayUtil_Example/Pods-NFAPayUtil_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05FD03C0503596A79F280B42B3CE4E5C /* Build configuration list for PBXNativeTarget "Pods-NFAPayUtil_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610A844CD2CC90A24A4BBB6B5424C729 /* Debug */,
+				43CBFFB5087860C1BB882D5FB3EA2E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23E755FBC40EFBB3D0F535ABF64743BA /* Build configuration list for PBXNativeTarget "Pods-NFAPayUtil_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABF68F9789B8CFA0E91CA0CD97B4E3C /* Debug */,
+				4F2CC3FCA2730BEADDE94E5479F3FA08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74AC45A32C62B4E97EDBCC5E0E465866 /* Build configuration list for PBXNativeTarget "NFAPayUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EF029708CF7CD9067DCF31254368B68 /* Debug */,
+				1BF0CAEB909F5CB6BC490D99BDB11492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

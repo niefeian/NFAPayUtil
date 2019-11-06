@@ -1,0 +1,6 @@
+framework module NFAPayUtil {
+  umbrella header "NFAPayUtil-umbrella.h"
+
+  export *
+  module * { export * }
+}

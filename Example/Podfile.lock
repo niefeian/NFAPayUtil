@@ -1,0 +1,16 @@
+PODS:
+  - NFAPayUtil (0.1.0)
+
+DEPENDENCIES:
+  - NFAPayUtil (from `../`)
+
+EXTERNAL SOURCES:
+  NFAPayUtil:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NFAPayUtil: d3810ee6072a83d4d55c97e4acdddeb445e979b0
+
+PODFILE CHECKSUM: 5f8190c98688370ed4b3830f5f16a217162234ab
+
+COCOAPODS: 1.8.4
