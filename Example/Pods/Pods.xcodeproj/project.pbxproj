@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06276D25A1223DD4C88FB4D6432FE315 /* NSDate+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = F28ABEDDC8D53F4B2C0B71BFCDE98D00 /* NSDate+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1741BDE43F4C9B46B6FDFB646FD3EA01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		1B73E6A661F5D1810292CF3FF35300EE /* Pods-NFAPayUtil_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 138F216F23161E637AB501B2D472C147 /* Pods-NFAPayUtil_Example-dummy.m */; };
+		1EE7791C47B8BF7D9EC4AEEEE88779E0 /* NSString+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = E08696C9CE8A09E99EBA2DAC2C8478A3 /* NSString+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2206947E77172A5CBBAD371679805098 /* STRIAPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7F2E432023FF3B4DC46601820E3483 /* STRIAPManager.m */; };
 		221AB0CFB29A729C66C57A614249FC2C /* Pods-NFAPayUtil_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D95140CECCF1C72856777641D916BC94 /* Pods-NFAPayUtil_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2AEBD0F6ED2C35D25511D691321CABD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5786915B627F6F40D93098D04153E83A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		645A6337C2A044C60399543507880D50 /* NFAPayUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6235D58D6CEBA8FEA02633D0F11496F /* NFAPayUtil-dummy.m */; };
+		409DB17C11238BA6E1E7348F4E1D7B40 /* NSString+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9043C92CD215B208C4DD3626560DCC /* NSString+YYAdd.m */; };
+		54D79B5516909B3F4D61A6EA6BA94FB0 /* NSData+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 0444B17C4E58CCD35365B1C221B346A8 /* NSData+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F934A1E7F0BE4042B7D8D5EF1F3095E /* NFAPayUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E2BCE8E4230FFFF0854813E61C538 /* NFAPayUtil-dummy.m */; };
+		70E7A42E17D13A55A640563AFB53D4AC /* NSNumber+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8B921D18D0FF0826D3B4022A510D2D /* NSNumber+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DEC9D79CA239A8A86B7BC6C70E81722 /* STRIAPManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ABDF431D50F9EEDFBA11AB0ACFBD4C21 /* STRIAPManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DFD847713B3845B7543BD5394572E81 /* UIDevice+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 298BA66C4083579F420D7CED814272F3 /* UIDevice+YYAdd.m */; };
 		9AAFE9B5BAD62AFFCA08B011C208F284 /* Pods-NFAPayUtil_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D9F7C263F9CE9AE95398403D5F2125 /* Pods-NFAPayUtil_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A64739492372AF790053B23A /* NSNumber+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A647393C2372AF790053B23A /* NSNumber+YYAdd.m */; };
-		A647394A2372AF790053B23A /* STRIAPManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A647393D2372AF790053B23A /* STRIAPManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A647394B2372AF790053B23A /* NSDate+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = A647393E2372AF790053B23A /* NSDate+YYAdd.h */; };
-		A647394C2372AF790053B23A /* YYKitMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = A647393F2372AF790053B23A /* YYKitMacro.h */; };
-		A647394D2372AF790053B23A /* UIDevice+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A64739402372AF790053B23A /* UIDevice+YYAdd.m */; };
-		A647394E2372AF790053B23A /* NSString+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = A64739412372AF790053B23A /* NSString+YYAdd.h */; };
-		A647394F2372AF790053B23A /* NSData+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A64739422372AF790053B23A /* NSData+YYAdd.m */; };
-		A64739502372AF790053B23A /* NSNumber+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = A64739432372AF790053B23A /* NSNumber+YYAdd.h */; };
-		A64739512372AF790053B23A /* STRIAPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A64739442372AF790053B23A /* STRIAPManager.m */; };
-		A64739522372AF790053B23A /* NSDate+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A64739452372AF790053B23A /* NSDate+YYAdd.m */; };
-		A64739532372AF790053B23A /* NSString+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A64739462372AF790053B23A /* NSString+YYAdd.m */; };
-		A64739542372AF790053B23A /* UIDevice+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = A64739472372AF790053B23A /* UIDevice+YYAdd.h */; };
-		A64739552372AF790053B23A /* NSData+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = A64739482372AF790053B23A /* NSData+YYAdd.h */; };
+		AF4C823833899BB3843AB2B66434E768 /* YYKitMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B3779583FC20967B19B2074FC8F49D /* YYKitMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1F604A50584DAA2D89908B0C0B438C8 /* NFAPayUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B16662AE79D89C240BC3F7A51636FA /* NFAPayUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4092015D9114B1C8FEA62248A675EC4 /* UIDevice+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = F62CA4015524EB0FE2E258A15E698DF9 /* UIDevice+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B624404039564D439A616D059C35C87F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B7A802B11A39D9515ECA4D73E37E7E6B /* NFAPayUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A4F4DA2A2C6417B8B618467F9796303 /* NFAPayUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C64FCD960F81D1A050C1834057469D72 /* Pods-NFAPayUtil_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB93819C90206404014FB8605766280D /* Pods-NFAPayUtil_Tests-dummy.m */; };
+		D1DDA8A6473BF3522A9766CD8E1928B1 /* NSData+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D761DF2FD07F610C7D0348AE1805F6CC /* NSData+YYAdd.m */; };
+		FF3821B7E632956D739409F7E0914964 /* NSNumber+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B2D07F1B97800276F3F03EC4F8C10C /* NSNumber+YYAdd.m */; };
+		FF8C16EA9983C678EFCF51B926C3AE1B /* NSDate+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CB53560A1641A255BBB0BD96B01EBC /* NSDate+YYAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,66 +49,66 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0444B17C4E58CCD35365B1C221B346A8 /* NSData+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+YYAdd.h"; path = "NFAPayUtil/Classes/STRIAPManager/NSData+YYAdd.h"; sourceTree = "<group>"; };
+		07B16662AE79D89C240BC3F7A51636FA /* NFAPayUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NFAPayUtil-umbrella.h"; sourceTree = "<group>"; };
+		07E2F5D93D9007237822AA9421CE4C72 /* NFAPayUtil.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NFAPayUtil.xcconfig; sourceTree = "<group>"; };
 		08CEC836B73910620F5CDEEDC77E1051 /* Pods-NFAPayUtil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NFAPayUtil_Example.release.xcconfig"; sourceTree = "<group>"; };
 		12ACD7190BF984827A5EA63E8983B216 /* Pods-NFAPayUtil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NFAPayUtil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		138F216F23161E637AB501B2D472C147 /* Pods-NFAPayUtil_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NFAPayUtil_Example-dummy.m"; sourceTree = "<group>"; };
 		16564DA921A500B8F69A308CCE491963 /* Pods-NFAPayUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NFAPayUtil_Tests.modulemap"; sourceTree = "<group>"; };
+		16CB53560A1641A255BBB0BD96B01EBC /* NSDate+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+YYAdd.m"; path = "NFAPayUtil/Classes/STRIAPManager/NSDate+YYAdd.m"; sourceTree = "<group>"; };
 		182D056F5E79D88519EFFC896B01B1AB /* Pods-NFAPayUtil_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NFAPayUtil_Example-frameworks.sh"; sourceTree = "<group>"; };
-		23A3A39AC3BA8A52518802F36C7BF168 /* Pods_NFAPayUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFAPayUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C8B921D18D0FF0826D3B4022A510D2D /* NSNumber+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+YYAdd.h"; path = "NFAPayUtil/Classes/STRIAPManager/NSNumber+YYAdd.h"; sourceTree = "<group>"; };
+		23A3A39AC3BA8A52518802F36C7BF168 /* Pods_NFAPayUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NFAPayUtil_Tests.framework; path = "Pods-NFAPayUtil_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24D9F7C263F9CE9AE95398403D5F2125 /* Pods-NFAPayUtil_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NFAPayUtil_Example-umbrella.h"; sourceTree = "<group>"; };
 		25332C333D74BD803D86F522DE0EFDCE /* Pods-NFAPayUtil_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NFAPayUtil_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2670FB28D89E95E902C1D915463B23F3 /* NFAPayUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFAPayUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A4F4DA2A2C6417B8B618467F9796303 /* NFAPayUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NFAPayUtil-umbrella.h"; sourceTree = "<group>"; };
+		2670FB28D89E95E902C1D915463B23F3 /* NFAPayUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NFAPayUtil.framework; path = NFAPayUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		298BA66C4083579F420D7CED814272F3 /* UIDevice+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+YYAdd.m"; path = "NFAPayUtil/Classes/STRIAPManager/UIDevice+YYAdd.m"; sourceTree = "<group>"; };
+		2D9043C92CD215B208C4DD3626560DCC /* NSString+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+YYAdd.m"; path = "NFAPayUtil/Classes/STRIAPManager/NSString+YYAdd.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		39E817573D4519237C31C3D655F1F9C1 /* NFAPayUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NFAPayUtil.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4501A699333058043C1C1B4F9CE82EE8 /* NFAPayUtil-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NFAPayUtil-Info.plist"; sourceTree = "<group>"; };
+		40B3779583FC20967B19B2074FC8F49D /* YYKitMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYKitMacro.h; path = NFAPayUtil/Classes/STRIAPManager/YYKitMacro.h; sourceTree = "<group>"; };
+		4E1E600F3E8516105705ABF91716F20A /* NFAPayUtil-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NFAPayUtil-Info.plist"; sourceTree = "<group>"; };
 		4F6406E828B6507E7B3F3D168983511A /* Pods-NFAPayUtil_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NFAPayUtil_Example-Info.plist"; sourceTree = "<group>"; };
-		562E5096BE345131B449839656A72E74 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		564F2F74B2985C10087F0B57A7F6880D /* Pods-NFAPayUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NFAPayUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		63C7F15E1683EB27C45A1AF481FA4222 /* NFAPayUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NFAPayUtil.modulemap; sourceTree = "<group>"; };
 		7401CCDCCD5AE28D20DAA178D450C3AE /* Pods-NFAPayUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NFAPayUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7681418156D91BFDD615966137A2F7B8 /* Pods_NFAPayUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFAPayUtil_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F0A70E33AB951C89A8283B655120683 /* NFAPayUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NFAPayUtil-prefix.pch"; sourceTree = "<group>"; };
-		A3932744A0A7EFECFA2EC714B8931254 /* NFAPayUtil.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NFAPayUtil.xcconfig; sourceTree = "<group>"; };
-		A647393C2372AF790053B23A /* NSNumber+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+YYAdd.m"; sourceTree = "<group>"; };
-		A647393D2372AF790053B23A /* STRIAPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRIAPManager.h; sourceTree = "<group>"; };
-		A647393E2372AF790053B23A /* NSDate+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YYAdd.h"; sourceTree = "<group>"; };
-		A647393F2372AF790053B23A /* YYKitMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKitMacro.h; sourceTree = "<group>"; };
-		A64739402372AF790053B23A /* UIDevice+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+YYAdd.m"; sourceTree = "<group>"; };
-		A64739412372AF790053B23A /* NSString+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YYAdd.h"; sourceTree = "<group>"; };
-		A64739422372AF790053B23A /* NSData+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+YYAdd.m"; sourceTree = "<group>"; };
-		A64739432372AF790053B23A /* NSNumber+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+YYAdd.h"; sourceTree = "<group>"; };
-		A64739442372AF790053B23A /* STRIAPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRIAPManager.m; sourceTree = "<group>"; };
-		A64739452372AF790053B23A /* NSDate+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YYAdd.m"; sourceTree = "<group>"; };
-		A64739462372AF790053B23A /* NSString+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YYAdd.m"; sourceTree = "<group>"; };
-		A64739472372AF790053B23A /* UIDevice+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+YYAdd.h"; sourceTree = "<group>"; };
-		A64739482372AF790053B23A /* NSData+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+YYAdd.h"; sourceTree = "<group>"; };
+		7681418156D91BFDD615966137A2F7B8 /* Pods_NFAPayUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NFAPayUtil_Example.framework; path = "Pods-NFAPayUtil_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A98296AD3A6738E433CE2F4D5D23B83 /* NFAPayUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NFAPayUtil.modulemap; sourceTree = "<group>"; };
+		92BD7F00F9E59482A86193776942BECF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		93B2D07F1B97800276F3F03EC4F8C10C /* NSNumber+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+YYAdd.m"; path = "NFAPayUtil/Classes/STRIAPManager/NSNumber+YYAdd.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB93819C90206404014FB8605766280D /* Pods-NFAPayUtil_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NFAPayUtil_Tests-dummy.m"; sourceTree = "<group>"; };
+		ABDF431D50F9EEDFBA11AB0ACFBD4C21 /* STRIAPManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STRIAPManager.h; path = NFAPayUtil/Classes/STRIAPManager/STRIAPManager.h; sourceTree = "<group>"; };
+		AD4BE4F02112DC1FB7FF299ED95041BC /* NFAPayUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NFAPayUtil-prefix.pch"; sourceTree = "<group>"; };
+		B076F868E6B4B4CD282045FCE133024A /* NFAPayUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NFAPayUtil.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC1CC3A8BB47962957FC1A660C29FEDB /* Pods-NFAPayUtil_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NFAPayUtil_Example.modulemap"; sourceTree = "<group>"; };
-		D6235D58D6CEBA8FEA02633D0F11496F /* NFAPayUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NFAPayUtil-dummy.m"; sourceTree = "<group>"; };
+		BE16260DFC86C54D3C4809C8729F3237 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D05E2BCE8E4230FFFF0854813E61C538 /* NFAPayUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NFAPayUtil-dummy.m"; sourceTree = "<group>"; };
+		D761DF2FD07F610C7D0348AE1805F6CC /* NSData+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+YYAdd.m"; path = "NFAPayUtil/Classes/STRIAPManager/NSData+YYAdd.m"; sourceTree = "<group>"; };
 		D95140CECCF1C72856777641D916BC94 /* Pods-NFAPayUtil_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NFAPayUtil_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DC61CC6B37591110E38E977BBFF6FF74 /* Pods-NFAPayUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NFAPayUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E08696C9CE8A09E99EBA2DAC2C8478A3 /* NSString+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+YYAdd.h"; path = "NFAPayUtil/Classes/STRIAPManager/NSString+YYAdd.h"; sourceTree = "<group>"; };
 		E46E877D789373D60F443A0DE49A2BE1 /* Pods-NFAPayUtil_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NFAPayUtil_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F28ABEDDC8D53F4B2C0B71BFCDE98D00 /* NSDate+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+YYAdd.h"; path = "NFAPayUtil/Classes/STRIAPManager/NSDate+YYAdd.h"; sourceTree = "<group>"; };
 		F2CAF2CAFB3ED546C88111284857F876 /* Pods-NFAPayUtil_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NFAPayUtil_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F3B9F52A64B63B7BA995BFAF35313253 /* Pods-NFAPayUtil_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NFAPayUtil_Tests-Info.plist"; sourceTree = "<group>"; };
-		F63CCC269E42FAB6594E6326B090FCEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F62CA4015524EB0FE2E258A15E698DF9 /* UIDevice+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+YYAdd.h"; path = "NFAPayUtil/Classes/STRIAPManager/UIDevice+YYAdd.h"; sourceTree = "<group>"; };
+		FF7F2E432023FF3B4DC46601820E3483 /* STRIAPManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STRIAPManager.m; path = NFAPayUtil/Classes/STRIAPManager/STRIAPManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8F5105351CC2A980AEA076CCCB9E6B30 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5786915B627F6F40D93098D04153E83A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A3EC6FB7DCA01E6079F7494B3588F7FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B624404039564D439A616D059C35C87F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A68DE3D2FD84DD5030E9C062C4C287BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1741BDE43F4C9B46B6FDFB646FD3EA01 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +123,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		194D621DE6A5DF2EE28227F821282290 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				604C54A647FE022170F1B6BD39F09890 /* NFAPayUtil */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		212D04E8F24E542C3E86344CDFDE8DD4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,20 +157,6 @@
 			path = "Target Support Files/Pods-NFAPayUtil_Tests";
 			sourceTree = "<group>";
 		};
-		54E25D9945D1495265BFCC8597E53079 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				63C7F15E1683EB27C45A1AF481FA4222 /* NFAPayUtil.modulemap */,
-				A3932744A0A7EFECFA2EC714B8931254 /* NFAPayUtil.xcconfig */,
-				D6235D58D6CEBA8FEA02633D0F11496F /* NFAPayUtil-dummy.m */,
-				4501A699333058043C1C1B4F9CE82EE8 /* NFAPayUtil-Info.plist */,
-				9F0A70E33AB951C89A8283B655120683 /* NFAPayUtil-prefix.pch */,
-				2A4F4DA2A2C6417B8B618467F9796303 /* NFAPayUtil-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/NFAPayUtil";
-			sourceTree = "<group>";
-		};
 		54FE4671EDA7FF26F33C5A296CA98E44 /* Pods-NFAPayUtil_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,25 +174,41 @@
 			path = "Target Support Files/Pods-NFAPayUtil_Example";
 			sourceTree = "<group>";
 		};
-		A647393B2372AF790053B23A /* STRIAPManager */ = {
+		56062415C136AF0EF12FD097A1EF6C79 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A647393C2372AF790053B23A /* NSNumber+YYAdd.m */,
-				A647393D2372AF790053B23A /* STRIAPManager.h */,
-				A647393E2372AF790053B23A /* NSDate+YYAdd.h */,
-				A647393F2372AF790053B23A /* YYKitMacro.h */,
-				A64739402372AF790053B23A /* UIDevice+YYAdd.m */,
-				A64739412372AF790053B23A /* NSString+YYAdd.h */,
-				A64739422372AF790053B23A /* NSData+YYAdd.m */,
-				A64739432372AF790053B23A /* NSNumber+YYAdd.h */,
-				A64739442372AF790053B23A /* STRIAPManager.m */,
-				A64739452372AF790053B23A /* NSDate+YYAdd.m */,
-				A64739462372AF790053B23A /* NSString+YYAdd.m */,
-				A64739472372AF790053B23A /* UIDevice+YYAdd.h */,
-				A64739482372AF790053B23A /* NSData+YYAdd.h */,
+				7A98296AD3A6738E433CE2F4D5D23B83 /* NFAPayUtil.modulemap */,
+				07E2F5D93D9007237822AA9421CE4C72 /* NFAPayUtil.xcconfig */,
+				D05E2BCE8E4230FFFF0854813E61C538 /* NFAPayUtil-dummy.m */,
+				4E1E600F3E8516105705ABF91716F20A /* NFAPayUtil-Info.plist */,
+				AD4BE4F02112DC1FB7FF299ED95041BC /* NFAPayUtil-prefix.pch */,
+				07B16662AE79D89C240BC3F7A51636FA /* NFAPayUtil-umbrella.h */,
 			);
-			name = STRIAPManager;
-			path = NFAPayUtil/Classes/STRIAPManager;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NFAPayUtil";
+			sourceTree = "<group>";
+		};
+		604C54A647FE022170F1B6BD39F09890 /* NFAPayUtil */ = {
+			isa = PBXGroup;
+			children = (
+				0444B17C4E58CCD35365B1C221B346A8 /* NSData+YYAdd.h */,
+				D761DF2FD07F610C7D0348AE1805F6CC /* NSData+YYAdd.m */,
+				F28ABEDDC8D53F4B2C0B71BFCDE98D00 /* NSDate+YYAdd.h */,
+				16CB53560A1641A255BBB0BD96B01EBC /* NSDate+YYAdd.m */,
+				1C8B921D18D0FF0826D3B4022A510D2D /* NSNumber+YYAdd.h */,
+				93B2D07F1B97800276F3F03EC4F8C10C /* NSNumber+YYAdd.m */,
+				E08696C9CE8A09E99EBA2DAC2C8478A3 /* NSString+YYAdd.h */,
+				2D9043C92CD215B208C4DD3626560DCC /* NSString+YYAdd.m */,
+				ABDF431D50F9EEDFBA11AB0ACFBD4C21 /* STRIAPManager.h */,
+				FF7F2E432023FF3B4DC46601820E3483 /* STRIAPManager.m */,
+				F62CA4015524EB0FE2E258A15E698DF9 /* UIDevice+YYAdd.h */,
+				298BA66C4083579F420D7CED814272F3 /* UIDevice+YYAdd.m */,
+				40B3779583FC20967B19B2074FC8F49D /* YYKitMacro.h */,
+				FDD567ADB2AE334E0DD13EF9681D8DC3 /* Pod */,
+				56062415C136AF0EF12FD097A1EF6C79 /* Support Files */,
+			);
+			name = NFAPayUtil;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -213,7 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				DE62DB127C8940DE774819B38CA3547C /* Development Pods */,
+				194D621DE6A5DF2EE28227F821282290 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				212D04E8F24E542C3E86344CDFDE8DD4 /* Products */,
 				EC56AB8FAF636E6B01162F3DDD5D74C0 /* Targets Support Files */,
@@ -228,24 +238,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D826A928EBEAEF8AEDB70D854E10AE68 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F63CCC269E42FAB6594E6326B090FCEA /* LICENSE */,
-				39E817573D4519237C31C3D655F1F9C1 /* NFAPayUtil.podspec */,
-				562E5096BE345131B449839656A72E74 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		DE62DB127C8940DE774819B38CA3547C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FB2AE6BE9C9B8C5383EC966FC7C33CA0 /* NFAPayUtil */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		EC56AB8FAF636E6B01162F3DDD5D74C0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,20 +247,34 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		FB2AE6BE9C9B8C5383EC966FC7C33CA0 /* NFAPayUtil */ = {
+		FDD567ADB2AE334E0DD13EF9681D8DC3 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A647393B2372AF790053B23A /* STRIAPManager */,
-				D826A928EBEAEF8AEDB70D854E10AE68 /* Pod */,
-				54E25D9945D1495265BFCC8597E53079 /* Support Files */,
+				BE16260DFC86C54D3C4809C8729F3237 /* LICENSE */,
+				B076F868E6B4B4CD282045FCE133024A /* NFAPayUtil.podspec */,
+				92BD7F00F9E59482A86193776942BECF /* README.md */,
 			);
-			name = NFAPayUtil;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		8703306A6AC97A32212C74FA29ED0FBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F604A50584DAA2D89908B0C0B438C8 /* NFAPayUtil-umbrella.h in Headers */,
+				54D79B5516909B3F4D61A6EA6BA94FB0 /* NSData+YYAdd.h in Headers */,
+				06276D25A1223DD4C88FB4D6432FE315 /* NSDate+YYAdd.h in Headers */,
+				70E7A42E17D13A55A640563AFB53D4AC /* NSNumber+YYAdd.h in Headers */,
+				1EE7791C47B8BF7D9EC4AEEEE88779E0 /* NSString+YYAdd.h in Headers */,
+				7DEC9D79CA239A8A86B7BC6C70E81722 /* STRIAPManager.h in Headers */,
+				B4092015D9114B1C8FEA62248A675EC4 /* UIDevice+YYAdd.h in Headers */,
+				AF4C823833899BB3843AB2B66434E768 /* YYKitMacro.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B7F71A4039679AA65D9B6B5CAE6C7A7F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -285,32 +291,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4CF5F0D7B7DD5BE5ED7EC8B8A45971D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A64739502372AF790053B23A /* NSNumber+YYAdd.h in Headers */,
-				A647394A2372AF790053B23A /* STRIAPManager.h in Headers */,
-				B7A802B11A39D9515ECA4D73E37E7E6B /* NFAPayUtil-umbrella.h in Headers */,
-				A64739542372AF790053B23A /* UIDevice+YYAdd.h in Headers */,
-				A647394C2372AF790053B23A /* YYKitMacro.h in Headers */,
-				A64739552372AF790053B23A /* NSData+YYAdd.h in Headers */,
-				A647394B2372AF790053B23A /* NSDate+YYAdd.h in Headers */,
-				A647394E2372AF790053B23A /* NSString+YYAdd.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		2517D038CC1E8182CD3DC28A7AA6331E /* NFAPayUtil */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74AC45A32C62B4E97EDBCC5E0E465866 /* Build configuration list for PBXNativeTarget "NFAPayUtil" */;
+			buildConfigurationList = BD8A248B072C5D85B7290D0C294B36A3 /* Build configuration list for PBXNativeTarget "NFAPayUtil" */;
 			buildPhases = (
-				E4CF5F0D7B7DD5BE5ED7EC8B8A45971D /* Headers */,
-				6EA4A6D8ACB343A11F14B3E464539A75 /* Sources */,
-				8F5105351CC2A980AEA076CCCB9E6B30 /* Frameworks */,
-				FB8163A615CB457F5BF6BC9C3A783886 /* Resources */,
+				8703306A6AC97A32212C74FA29ED0FBF /* Headers */,
+				41688AD8C55289342240BCC8B3A7321D /* Sources */,
+				A68DE3D2FD84DD5030E9C062C4C287BC /* Frameworks */,
+				8C3A0D65EB0F9BF9DB3756FFF3285678 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -403,7 +394,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB8163A615CB457F5BF6BC9C3A783886 /* Resources */ = {
+		8C3A0D65EB0F9BF9DB3756FFF3285678 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -413,25 +404,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		41688AD8C55289342240BCC8B3A7321D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F934A1E7F0BE4042B7D8D5EF1F3095E /* NFAPayUtil-dummy.m in Sources */,
+				D1DDA8A6473BF3522A9766CD8E1928B1 /* NSData+YYAdd.m in Sources */,
+				FF8C16EA9983C678EFCF51B926C3AE1B /* NSDate+YYAdd.m in Sources */,
+				FF3821B7E632956D739409F7E0914964 /* NSNumber+YYAdd.m in Sources */,
+				409DB17C11238BA6E1E7348F4E1D7B40 /* NSString+YYAdd.m in Sources */,
+				2206947E77172A5CBBAD371679805098 /* STRIAPManager.m in Sources */,
+				8DFD847713B3845B7543BD5394572E81 /* UIDevice+YYAdd.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64698E6DA751E468080FD619144DB3FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1B73E6A661F5D1810292CF3FF35300EE /* Pods-NFAPayUtil_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6EA4A6D8ACB343A11F14B3E464539A75 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A64739522372AF790053B23A /* NSDate+YYAdd.m in Sources */,
-				645A6337C2A044C60399543507880D50 /* NFAPayUtil-dummy.m in Sources */,
-				A64739492372AF790053B23A /* NSNumber+YYAdd.m in Sources */,
-				A647394F2372AF790053B23A /* NSData+YYAdd.m in Sources */,
-				A647394D2372AF790053B23A /* UIDevice+YYAdd.m in Sources */,
-				A64739512372AF790053B23A /* STRIAPManager.m in Sources */,
-				A64739532372AF790053B23A /* NSString+YYAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,38 +452,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1BF0CAEB909F5CB6BC490D99BDB11492 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3932744A0A7EFECFA2EC714B8931254 /* NFAPayUtil.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NFAPayUtil/NFAPayUtil-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NFAPayUtil/NFAPayUtil-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NFAPayUtil/NFAPayUtil.modulemap";
-				PRODUCT_MODULE_NAME = NFAPayUtil;
-				PRODUCT_NAME = NFAPayUtil;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		43CBFFB5087860C1BB882D5FB3EA2E28 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC61CC6B37591110E38E977BBFF6FF74 /* Pods-NFAPayUtil_Tests.release.xcconfig */;
@@ -580,7 +539,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -619,37 +579,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		5EF029708CF7CD9067DCF31254368B68 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3932744A0A7EFECFA2EC714B8931254 /* NFAPayUtil.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NFAPayUtil/NFAPayUtil-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NFAPayUtil/NFAPayUtil-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NFAPayUtil/NFAPayUtil.modulemap";
-				PRODUCT_MODULE_NAME = NFAPayUtil;
-				PRODUCT_NAME = NFAPayUtil;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		610A844CD2CC90A24A4BBB6B5424C729 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -748,6 +677,69 @@
 			};
 			name = Debug;
 		};
+		9D9478E5738BC2C465D87AE71BFF2771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E2F5D93D9007237822AA9421CE4C72 /* NFAPayUtil.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NFAPayUtil/NFAPayUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NFAPayUtil/NFAPayUtil-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NFAPayUtil/NFAPayUtil.modulemap";
+				PRODUCT_MODULE_NAME = NFAPayUtil;
+				PRODUCT_NAME = NFAPayUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E400DBBC538257F86FB3F2F87A2344A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E2F5D93D9007237822AA9421CE4C72 /* NFAPayUtil.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NFAPayUtil/NFAPayUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NFAPayUtil/NFAPayUtil-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NFAPayUtil/NFAPayUtil.modulemap";
+				PRODUCT_MODULE_NAME = NFAPayUtil;
+				PRODUCT_NAME = NFAPayUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		DABF68F9789B8CFA0E91CA0CD97B4E3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7401CCDCCD5AE28D20DAA178D450C3AE /* Pods-NFAPayUtil_Example.debug.xcconfig */;
@@ -811,11 +803,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74AC45A32C62B4E97EDBCC5E0E465866 /* Build configuration list for PBXNativeTarget "NFAPayUtil" */ = {
+		BD8A248B072C5D85B7290D0C294B36A3 /* Build configuration list for PBXNativeTarget "NFAPayUtil" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5EF029708CF7CD9067DCF31254368B68 /* Debug */,
-				1BF0CAEB909F5CB6BC490D99BDB11492 /* Release */,
+				9D9478E5738BC2C465D87AE71BFF2771 /* Debug */,
+				9E400DBBC538257F86FB3F2F87A2344A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

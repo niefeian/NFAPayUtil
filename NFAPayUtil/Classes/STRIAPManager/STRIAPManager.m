@@ -72,7 +72,6 @@
 }
 #pragma mark - 🔒private
 - (void)handleActionWithType:(SIAPPurchType)type data:(NSData *)data{
-#if DEBUG
     switch (type) {
         case SIAPPurchSuccess:
             NSLog(@"购买成功");
@@ -102,7 +101,6 @@
         default:
             break;
     }
-#endif
     if(_handle){
         _handle(type,data);
     }
