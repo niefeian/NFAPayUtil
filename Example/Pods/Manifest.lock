@@ -1,5 +1,5 @@
 PODS:
-  - NFAPayUtil (0.0.2)
+  - NFAPayUtil (0.0.3)
 
 DEPENDENCIES:
   - NFAPayUtil (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NFAPayUtil: 734a736e904ebe01f99862cfd7c9c5770fdcb080
+  NFAPayUtil: 968254408ad9c7510fa8570fa31176ec6d7adf7b
 
 PODFILE CHECKSUM: 5f8190c98688370ed4b3830f5f16a217162234ab
 

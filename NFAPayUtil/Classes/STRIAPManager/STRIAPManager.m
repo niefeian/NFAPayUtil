@@ -262,13 +262,10 @@
 #if DEBUG
     NSLog(@"------------反馈信息结束-----------------");
     #endif
-     [[NSNotificationCenter defaultCenter] postNotificationName:@"hideMsg" object:nil];
 }
 
 #pragma mark - SKPaymentTransactionObserver
 - (void)paymentQueue:(SKPaymentQueue *)queue updatedTransactions:(NSArray<SKPaymentTransaction *> *)transactions{
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"hideMsg" object:nil];
-
     for (SKPaymentTransaction *tran in transactions) {
         switch (tran.transactionState) {
             case SKPaymentTransactionStatePurchased:
