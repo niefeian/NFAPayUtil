@@ -31,8 +31,8 @@
 @implementation STRIAPManager
 
 #pragma mark - ♻️life cycle
+
 + (instancetype)shareSIAPManager{
-    
     static STRIAPManager *IAPManager = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken,^{
@@ -40,6 +40,7 @@
     });
     return IAPManager;
 }
+
 - (instancetype)init{
     self = [super init];
     if (self) {
@@ -79,7 +80,6 @@
             break;
         case SIAPPurchFailed:
             [[NSNotificationCenter defaultCenter] postNotificationName:@"showLondTip" object:@"购买失败"];
-
             NSLog(@"购买失败");
             break;
         case SIAPPurchCancle:
@@ -160,7 +160,7 @@
     }
     // 购买成功将交易凭证发送给服务端进行再次校验
     [self handleActionWithType:SIAPPurchSuccess data:receipt];
-
+    /*
     NSError *error;
     NSDictionary *requestContents = @{
                                       @"receipt-data": [receipt base64EncodedStringWithOptions:0]
@@ -216,6 +216,7 @@
     
     // 验证成功与否都注销交易,否则会出现虚假凭证信息一直验证不通过,每次进程序都得输入苹果账号
     [[SKPaymentQueue defaultQueue] finishTransaction:transaction];
+     */
 }
 
 #pragma mark - SKProductsRequestDelegate
