@@ -215,8 +215,9 @@
     
     
     // 验证成功与否都注销交易,否则会出现虚假凭证信息一直验证不通过,每次进程序都得输入苹果账号
-    [[SKPaymentQueue defaultQueue] finishTransaction:transaction];
+    
      */
+    [[SKPaymentQueue defaultQueue] finishTransaction:transaction];
 }
 
 #pragma mark - SKProductsRequestDelegate
