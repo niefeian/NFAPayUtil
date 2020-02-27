@@ -26,6 +26,8 @@
 @interface STRIAPManager()<SKPaymentTransactionObserver,SKProductsRequestDelegate>{
     NSString           *_purchID;
     IAPCompletionHandle _handle;
+    
+    IAPSubscribeHandle _subhandle;
 }
 @end
 @implementation STRIAPManager
@@ -55,6 +57,28 @@
 }
 
 
+
+- (void)verifySubscribe:(IAPSubscribeHandle)handle{
+    _subhandle = handle;
+}
+
+-(void)restoreCompletedTransactions{
+    [[SKPaymentQueue defaultQueue] restoreCompletedTransactions];
+}
+
+- (void) paymentQueueRestoreCompletedTransactionsFinished:(SKPaymentQueue *)queue{
+     NSMutableArray *purchasedItemIDs = [[NSMutableArray alloc] init];
+        for (SKPaymentTransaction *transaction in queue.transactions){
+            NSString *productID = transaction.payment.productIdentifier;
+            [purchasedItemIDs addObject:productID];
+        }
+        
+    if(_subhandle){
+                  _subhandle(purchasedItemIDs);
+              }
+
+}
+
 #pragma mark - 🚪public
 - (void)startPurchWithID:(NSString *)purchID completeHandle:(IAPCompletionHandle)handle{
     if (purchID) {
@@ -79,7 +103,7 @@
              [[NSNotificationCenter defaultCenter] postNotificationName:@"showLondTip" object:@"购买成功"];
             break;
         case SIAPPurchFailed:
-            [[NSNotificationCenter defaultCenter] postNotificationName:@"showLondTip" object:@"购买失败"];
+//            [[NSNotificationCenter defaultCenter] postNotificationName:@"showLondTip" object:@"购买失败"];
             NSLog(@"购买失败");
             break;
         case SIAPPurchCancle:
@@ -160,63 +184,7 @@
     }
     // 购买成功将交易凭证发送给服务端进行再次校验
     [self handleActionWithType:SIAPPurchSuccess data:receipt];
-    /*
-    NSError *error;
-    NSDictionary *requestContents = @{
-                                      @"receipt-data": [receipt base64EncodedStringWithOptions:0]
-                                      };
-    NSData *requestData = [NSJSONSerialization dataWithJSONObject:requestContents
-                                                          options:0
-                                                            error:&error];
-    
-    if (!requestData) { // 交易凭证为空验证失败
-        [self handleActionWithType:SIAPPurchVerFailed data:nil];
-        return;
-    }
-    
-    //In the test environment, use https://sandbox.itunes.apple.com/verifyReceipt
-    //In the real environment, use https://buy.itunes.apple.com/verifyReceipt
-    
-    NSString *serverString = @"https://buy.itunes.apple.com/verifyReceipt";
-    if (flag) {
-        serverString = @"https://sandbox.itunes.apple.com/verifyReceipt";
-    }
-    NSURL *storeURL = [NSURL URLWithString:serverString];
-    NSMutableURLRequest *storeRequest = [NSMutableURLRequest requestWithURL:storeURL];
-    [storeRequest setHTTPMethod:@"POST"];
-    [storeRequest setHTTPBody:requestData];
-    
-    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
-    [NSURLConnection sendAsynchronousRequest:storeRequest queue:queue
-                           completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
-                               if (connectionError) {
-                                   // 无法连接服务器,购买校验失败
-                                   [self handleActionWithType:SIAPPurchVerFailed data:nil];
-                               } else {
-                                   NSError *error;
-                                   NSDictionary *jsonResponse = [NSJSONSerialization JSONObjectWithData:data options:0 error:&error];
-                                   if (!jsonResponse) {
-                                       // 苹果服务器校验数据返回为空校验失败
-                                       [self handleActionWithType:SIAPPurchVerFailed data:nil];
-                                   }
-                                   
-                                   // 先验证正式服务器,如果正式服务器返回21007再去苹果测试服务器验证,沙盒测试环境苹果用的是测试服务器
-                                   NSString *status = [NSString stringWithFormat:@"%@",jsonResponse[@"status"]];
-                                   if (status && [status isEqualToString:@"21007"]) {
-                                       [self verifyPurchaseWithPaymentTransaction:transaction isTestServer:YES];
-                                   }else if(status && [status isEqualToString:@"0"]){
-                                       [self handleActionWithType:SIAPPurchVerSuccess data:receipt];
-                                   }
-#if DEBUG
-                                   NSLog(@"----验证结果 %@",jsonResponse);
-#endif
-                               }
-                           }];
-    
-    
-    // 验证成功与否都注销交易,否则会出现虚假凭证信息一直验证不通过,每次进程序都得输入苹果账号
-    
-     */
+   
     [[SKPaymentQueue defaultQueue] finishTransaction:transaction];
 }
 
@@ -253,6 +221,9 @@
     [[SKPaymentQueue defaultQueue] addPayment:payment];
 }
 
+- (void)paymentQueue:(SKPaymentQueue *)queue restoreCompletedTransactionsFailedWithError:(NSError *)error{
+      [[NSNotificationCenter defaultCenter] postNotificationName:@"showLondTip" object:@"用户取消操作"];
+}
 //请求失败
 - (void)request:(SKRequest *)request didFailWithError:(NSError *)error{
 #if DEBUG
@@ -263,7 +234,7 @@
 - (void)requestDidFinish:(SKRequest *)request{
 #if DEBUG
     NSLog(@"------------反馈信息结束-----------------");
-    #endif
+#endif
 }
 
 #pragma mark - SKPaymentTransactionObserver

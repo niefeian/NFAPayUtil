@@ -15,12 +15,20 @@ typedef enum {
 
 typedef void (^IAPCompletionHandle)(SIAPPurchType type,NSData *data);
 
+typedef void (^IAPSubscribeHandle)(NSMutableArray *data);
 
 @interface STRIAPManager : NSObject
 + (instancetype)shareSIAPManager;
 //开始内购
 - (void)startPurchWithID:(NSString *)purchID completeHandle:(IAPCompletionHandle)handle;
+
+- (void)restoreCompletedTransactions;
+
 - (NSData *)verifyPurchase;
+
+
+- (void)verifySubscribe:(IAPSubscribeHandle)handle;
+
 @end
 
 NS_ASSUME_NONNULL_END
