@@ -56,6 +56,26 @@
     [[SKPaymentQueue defaultQueue] removeTransactionObserver:self];
 }
 
+-(void)finishTransactionLast{
+    NSArray* transactions = [SKPaymentQueue defaultQueue].transactions;
+    if (transactions.count > 0) {
+        for (SKPaymentTransaction* transaction in transactions){
+            if (transaction.transactionState == SKPaymentTransactionStatePurchased) {
+             [[SKPaymentQueue defaultQueue] finishTransaction:transaction];
+            }
+        }
+    }
+}
+
+
+-(void)addTransactionObserver{
+     [[SKPaymentQueue defaultQueue] removeTransactionObserver:self];
+     [[SKPaymentQueue defaultQueue] addTransactionObserver:self];
+}
+
+-(void)removeTransactionObserver{
+     [[SKPaymentQueue defaultQueue] removeTransactionObserver:self];
+}
 
 
 - (void)verifySubscribe:(IAPSubscribeHandle)handle{
@@ -103,7 +123,7 @@
              [[NSNotificationCenter defaultCenter] postNotificationName:@"showLondTip" object:@"购买成功"];
             break;
         case SIAPPurchFailed:
-//            [[NSNotificationCenter defaultCenter] postNotificationName:@"showLondTip" object:@"购买失败"];
+            [[NSNotificationCenter defaultCenter] postNotificationName:@"showLondTip" object:@"购买失败"];
             NSLog(@"购买失败");
             break;
         case SIAPPurchCancle:

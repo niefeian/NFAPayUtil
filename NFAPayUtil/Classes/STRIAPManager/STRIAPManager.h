@@ -29,6 +29,13 @@ typedef void (^IAPSubscribeHandle)(NSMutableArray *data);
 
 - (void)verifySubscribe:(IAPSubscribeHandle)handle;
 
+
+-(void)finishTransactionLast;
+
+-(void)addTransactionObserver;
+
+-(void)removeTransactionObserver;
+
 @end
 
 NS_ASSUME_NONNULL_END
